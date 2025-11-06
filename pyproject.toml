@@ -1,0 +1,49 @@
+[build-system]
+requires = ["setuptools>=42", "wheel", "torch"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "sparsenet"
+version = "0.0.1"
+description = "A Python library based on PyTorch to train sparse models"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+keywords = ["machine learning", "neural networks", "sparse", "ISTA"]
+authors = [{ name = "J. Flückiger", email = "jonas.fluckiger@he-arc.ch" }]
+
+classifiers = [
+  "Development Status :: 1 - Planning",
+
+  "Intended Audience :: Science/Research",
+
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+  "Topic :: Scientific/Engineering :: Information Analysis",
+  "Topic :: Scientific/Engineering :: Mathematics",
+
+  "License :: OSI Approved :: MIT License",
+
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3 :: Only",
+]
+
+dependencies = ["torch", "pandas", "numpy", "tqdm", "matplotlib"]
+
+[project.optional-dependencies]
+dev = [
+  "sphinx",
+  "sphinx-autodoc-typehints",
+  "sphinxawesome-theme",
+  "furo",
+  "pytest",
+  "coverage",
+]
+
+
+[project.urls]
+"Institute" = "https://www.he-arc.ch/"
+"Source" = "https://gitlab-etu.ing.he-arc.ch/isc/2023-24/niveau-3/3285-tb-il/270/sparsenet"
