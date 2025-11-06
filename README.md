@@ -1,4 +1,4 @@
-# SparseNet
+# SparseNet — Efficient sparse models with PyTorch :runner:
 
 SparseNet is a compact library built on PyTorch designed to facilitate the training of sparse models using algorithms such as ISTA. Developed in the context of research at the University of Geneva's Section of Mathematics, this library was implemented by Jonas Flückiger from the HE-Arc University of Applied Sciences as part of his bachelor's thesis.
 
