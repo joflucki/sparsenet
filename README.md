@@ -6,9 +6,9 @@ SparseNet offers tools for creating sparse datasets, training linear models and 
 
 This documentation includes instructions for installing and using the SparseNet library, as well as comprehensive API documentation for developers. Each module is described in detail within the API documentation, with additional information on the implementation of specific algorithms where necessary.
 
-# Getting started
+## Getting started
 
-## Downloading the repo
+### Downloading the repo
 
 
 You can download the SparseNet repository and place it in the directory of your choice.
@@ -19,7 +19,7 @@ git clone https://github.com/joflucki/sparsenet
 
 Once you have downloaded the repository, move the the root directory of the projet.
 
-## Setting up a virtual environment
+### Setting up a virtual environment
 
 It is highly recommended to use a virtual environment to manage your dependencies. To set up a virtual environment, navigate to your project root directory and create a virtual environment using ``venv``:
 
@@ -52,7 +52,7 @@ pip install .
 ```
 This will install SparseNet along with all its dependencies.
 
-## Running an example
+### Running an example
 
 With the virtual environment set up and dependencies installed, you can now start using the SparseNet package.
 To use an example, simply use the command line to launch a script from the root of the repository.
@@ -70,7 +70,7 @@ To use an example, simply use the command line to launch a script from the root 
     python3 examples/linear/training.py
     ```
 
-## Importing and Using the Package
+### Importing and Using the Package
 
 You can now start using the SparseNet package. To import SparseNet in your Python script, simply use:
 
@@ -86,7 +86,7 @@ simulation = Simulation(parameters)
 
 Refer to the User Guide for detailed examples and use cases.
 
-## Setting Up an IDE (Optional)
+### Setting Up an IDE (Optional)
 
 While setting up an IDE is optional, it can greatly enhance your development experience. Here are some steps to set up a common IDE, Visual Studio Code (VS Code), for working with SparseNet:
 
@@ -106,6 +106,6 @@ While setting up an IDE is optional, it can greatly enhance your development exp
 
 By following these additional steps, you'll ensure consistent code formatting and improve type checking in your SparseNet project.
 
-# License
+## License
 
 The software was developed by Jonas Flückiger (HE-Arc), in collaboration with Cédric Bilat (HE-Arc) and Sylvain Sardy (UniGE), all rights reserved.
