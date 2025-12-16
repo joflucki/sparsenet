@@ -46,4 +46,4 @@ dev = [
 
 [project.urls]
 "Institute" = "https://www.he-arc.ch/"
-"Source" = "https://gitlab-etu.ing.he-arc.ch/isc/2023-24/niveau-3/3285-tb-il/270/sparsenet"
+"Source" = "https://github.com/joflucki/sparsenet/"
